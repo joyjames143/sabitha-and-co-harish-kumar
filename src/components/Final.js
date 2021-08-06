@@ -2,7 +2,7 @@ import React from 'react'
 import SlideShow from './SlideShow'
 import Products from './Products'
 import Brands from "./Brands"
-import Chatbot from './chatbot/Chatbot'
+import Chatbott from './chatbot/Chatbot'
 import Contact from './Contact'
 import ContactIcon from './ContactIcon'
 import Location from "./Location"
@@ -29,7 +29,7 @@ export default function Final() {
                     <About/>
                     <Pageend/>
                     <ContactIcon/>
-                    <Chatbot/>
+                    <Chatbott/>
                 </Route>
             </Switch>
             
