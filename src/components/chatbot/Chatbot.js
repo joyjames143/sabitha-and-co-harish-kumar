@@ -7,7 +7,7 @@ import ActionProvider from "./ActionProvider";
 import { FaRobot } from "react-icons/fa";
 
 
-export default function chatbot() {
+export default function Chatbot() {
     const [botClicked, setBotClickked ] = useState(false)
 
     const iconClicked = () =>{
