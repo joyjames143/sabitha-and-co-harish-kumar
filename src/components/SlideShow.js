@@ -45,7 +45,6 @@ export default function SlideShow() {
         }
     }
 
-    {/**/}
     useEffect(() => {
         window.addEventListener('scroll', onscrolling);
         if (scroll === false){
@@ -58,7 +57,6 @@ export default function SlideShow() {
         }
       },[timer]);
 
-    {/**/}
     return (
         <div className="main">
 

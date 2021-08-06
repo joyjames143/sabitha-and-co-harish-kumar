@@ -7,7 +7,7 @@ import Contact from './Contact'
 import ContactIcon from './ContactIcon'
 import Location from "./Location"
 import About from './About'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Tiles from './Tiles'
 import Glass from './Glass'
 import Cpfittings from './Cpfittings'

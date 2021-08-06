@@ -7,7 +7,6 @@ import somaylogo from "../images and videos sabitha and co/somaylogo.png"
 import italicalogo from "../images and videos sabitha and co/italicalogo.png"
 import aximasterfloor from "../images and videos sabitha and co/aximasterfloor.pdf"
 import NavbarRoutes from './NavbarRoutes';
-import {Button } from '@material-ui/core';
 import HoverCard from 'react-png-hovercard'; 
 
 
@@ -41,7 +40,7 @@ export default function Tiles() {
                       </div>
                       <div className="buttons-different-types">
                         <div className="two-button-div">
-                          <a href={aximasterfloor}  target="_blank" className="logo-button-anchor"   ><button className="logo-button" >MASTER</button>  </a>
+                          <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER            </button>  </a>
                           <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
                         </div>
                         <div className="two-button-div">

@@ -43,11 +43,11 @@ export default function Brands() {
                 
                 removeArrowOnDeviceType={["tablet", "mobile","desktop","superLargeDesktop"]}
             >
-                <div className="logo-img-div"><img className="logo-img" src={logo1}/></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo2}/></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo3}/></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo4}/></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo5}/></div>
+                <div className="logo-img-div"><img className="logo-img" src={logo1} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={logo2} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={logo3} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={logo4} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={logo5} alt="company logo" /></div>
                 
             </Carousel>; 
             </div>
