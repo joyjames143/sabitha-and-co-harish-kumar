@@ -1,0 +1,96 @@
+/* FRONT -------FRONT----FRONT------*/
+.navbar-routes-heading-{
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Uchen', serif;
+    color:#203647;
+}
+.cards-tiles-main-div{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards-tiles-main-div .hovercard-tiles{
+    max-width: 280px;
+    height: 150px;
+}
+/* inbuilt class name for the hover card------*/
+.HoverCard__Content__3UAyY{
+    justify-content: center;
+}
+.cards-tiles-main-div img{
+   
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+/* BACK -------BACK----BACK------*/
+.cards-tiles-main-div .Back{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:  #00416A;
+}
+.cards-tiles-main-div .Back .logo-card-heading{
+    position: absolute;
+    top: -4%;
+    color: #fff;
+    font-size: 80%;
+    font-family: 'Uchen', serif;
+}
+
+.cards-tiles-main-div .Back .buttons-different-types{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 8%;
+    flex-wrap: wrap;
+}
+.cards-tiles-main-div .Back .buttons-different-types .two-button-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+.cards-tiles-main-div .Back .buttons-different-types .logo-button-anchor{
+    text-decoration: none;
+}
+
+.cards-tiles-main-div .Back .buttons-different-types .logo-button{
+    height: 40px;
+    width: 90px;
+    font-size: 100%;
+    font-weight: 600;
+    font-family: 'Uchen', serif;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    background: none;
+    color: #ffff;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cards-tiles-main-div .Back .buttons-different-types .logo-button:hover{
+    color: #fff;
+}
+.cards-tiles-main-div .Back .buttons-different-types .logo-button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.cards-tiles-main-div .Back .buttons-different-types .logo-button:hover::before{
+    height: 180%;
+   
+}

@@ -1,0 +1,14 @@
+.about-sabithaandco{
+    display: flex;
+    justify-content: center;
+}
+.description-about-sabithandco{
+   
+    text-align: justify;
+    width: 85vw;
+}
+
+.description-about-sabithandco h3{
+
+    margin-top: 0;
+}

@@ -1,0 +1,58 @@
+.top-div-contact-form{
+    background-color: #1A2238;
+}
+.heading{
+    text-align: center;
+}
+.heading-contact{
+    color: #DC3D24;
+}
+.heading-details{
+    margin-top: -30px;
+    color: #DC3D24;
+}
+.materila-ui{
+    display: flex;
+    justify-content: center;
+}
+.contact-materialul-div{
+   width: 50%;
+  
+}
+.MuiInputBase-input{
+    width: 500px;
+}
+.material-ui-input-fields-div{
+    padding: 0 0 20px 0;
+   
+}
+.MuiInputLabel-outlined {
+    z-index: 0 !important;
+}
+
+.material-ui-form-button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.material-ui-check-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width:850px){
+    .contact-materialul-div{
+        width: 70%;
+       
+     }
+}
+
+@media(max-width:620px){
+    .contact-materialul-div{
+        width: 80%;
+       
+     }
+}
+
+

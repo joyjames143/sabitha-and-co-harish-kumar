@@ -1,0 +1,9 @@
+.main-google-map-div{
+    display: flex;
+    justify-content: center;
+}
+.googlemap-iframe{
+    width: 85vw;
+    height: 200px;
+    border: cornsilk 5px;
+}

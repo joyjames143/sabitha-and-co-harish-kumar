@@ -1,0 +1,122 @@
+
+#outer{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    width: 20%;
+    align-items: center;
+}
+#inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:7%;
+    
+}
+.icon-navbar{
+    color: #f5fffa;
+}
+
+/* COMPUTER VERSION HERE--------------------------------------------*/
+.first-navbar-header{
+    margin: 0;  
+    width: 100%;
+    background-color: rgba(31, 22, 22, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11%;
+    position: absolute;
+}
+.first-navbar-header ul{
+    margin: 0;
+    padding: 0px 40px 0px 40px;
+}
+.first-navbar-header li{
+    list-style: none;
+}
+.first-navbar-header a{
+    text-decoration: none;
+}
+.first-navbar-header  h1{
+    font-weight: 450;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 270%;
+    color: #f5fffa;
+}
+.first-navbar-header h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100%;
+    color: #f5fffa;
+    font-weight: 80;
+
+}
+/* HOVER EFFECT IS APPLIED HERE-----------------------------------------------*/
+@media (hover: hover) {
+    .first-navbar-header:hover{
+        background-color: rgb(248, 247, 245);
+        transition: 0.5s;
+    
+    }
+    .first-navbar-header:hover  h2{
+        color: #203647;
+    
+    }
+    .first-navbar-header:hover h1{
+        color: #203647;
+    }
+    .first-navbar-header:hover .icon-navbar{
+        color: #203647;
+    }
+}
+
+
+/* MOBILE VERSION HERE------------------------------------------------*/
+#first-navbar-mobile{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#first-navbar-mobile ul{
+    padding: 0 0 0 0;
+    padding-left: 15px;
+}
+#first-navbar-mobile ul li h1{
+    font-size: 40px;
+    color: 	#f5fffa;
+}
+#first-navbar-mobile #twooo li {
+
+    display: flex;
+    justify-content: center;
+}
+
+#first-navbar-mobile #twooo li .icon-navbar{
+    color: 	#f5fffa;
+}
+
+
+
+#second-menu-mobile{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: 1s ease-out;
+    color: white;
+}
+#second-menu-mobile h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-icon-three{
+    display: flex;
+    width: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

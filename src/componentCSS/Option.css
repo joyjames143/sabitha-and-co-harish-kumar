@@ -1,0 +1,37 @@
+.option-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+.option-button {
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid grey;
+    margin: 3px;
+    cursor: pointer;
+  }
+
+.option-button:hover{
+    color: #318CE7;
+}
+
+/* below code is for the Linklist.js file and not gfot the Option.js file*/
+.link-list-item {
+    text-align: left;
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+  }
+  
+.link-list-item-url {
+    text-decoration: none;
+    margin: 6px;
+    display: block;
+    color: #1d1d1d;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
+   
+  }
