@@ -14,7 +14,7 @@ const ComputerList = () => {
             </ul>
             <ul>
             <Link to="/">
-                <li> <h1>SMS</h1> </li>
+                <li> <h1>SABITHA & CO</h1> </li>
             </Link>
             </ul>
             <ul id="outer">

@@ -5,6 +5,7 @@ import config from "./config";
 import MessageParser from "./MessageParser";
 import ActionProvider from "./ActionProvider";
 import { FaRobot } from "react-icons/fa";
+import { AiFillMessage } from "react-icons/ai";
 
 
 export default function Chatbott() {
@@ -17,7 +18,7 @@ export default function Chatbott() {
     return (
         <div>
             <div className="chatbox-icon">
-                <FaRobot className="chaticon-fontawesom" size="2rem" onClick={iconClicked}/>
+                <AiFillMessage className="chaticon-fontawesom" size="2rem" onClick={iconClicked}/>
             </div>
             
             <div className = { botClicked ? "chatbot-main-div" : "chatbot-main-div do-not-open" }>

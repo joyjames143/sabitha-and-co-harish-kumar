@@ -6,6 +6,7 @@ import { GiDominoTiles } from "react-icons/gi";
 import { SiAirtable } from "react-icons/si";
 import { GiProtectionGlasses,GiTap } from "react-icons/gi";
 import { HiGift} from "react-icons/hi";
+import { GoHome } from "react-icons/go";
 
 
 const ComputerList = () => {
@@ -13,7 +14,7 @@ const ComputerList = () => {
         <div className="first-navbar-header-routes" >
             <ul>
                 <Link to="/">
-                    <li> <h1>SMS</h1> </li>
+                    <li> <h1><GoHome/>sms</h1> </li>
                 </Link>
             </ul>
             <ul id="outer-routes">
@@ -35,7 +36,7 @@ const MobileList = () => {
             <div className="first-navbar-header-routes" >
                 <div id="first-navbar-mobile-routes">
                     <ul id="one-routes">
-                            <li><Link to="/"> <h1>SMS</h1> </Link> </li>
+                            <li><Link to="/"> <h1><GoHome/>sms </h1> </Link> </li>
                     </ul>
                     <ul id="twooo-routes" className="navbar-icon-three-routes">
                         <a> <Link to="/tiles">        <li><GiDominoTiles       className="icon-navbar-routes" size="90%"  /></li></Link>  </a>

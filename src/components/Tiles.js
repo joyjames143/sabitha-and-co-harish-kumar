@@ -5,7 +5,6 @@ import simerologo from "../images and videos sabitha and co/simerologo.png"
 import anujlogo from "../images and videos sabitha and co/anujlogo.jpg"
 import somaylogo from "../images and videos sabitha and co/somaylogo.png"
 import italicalogo from "../images and videos sabitha and co/italicalogo.png"
-import aximasterfloor from "../images and videos sabitha and co/aximasterfloor.pdf"
 import NavbarRoutes from './NavbarRoutes';
 import HoverCard from 'react-png-hovercard'; 
 

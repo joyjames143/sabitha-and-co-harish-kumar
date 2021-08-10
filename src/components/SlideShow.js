@@ -45,17 +45,17 @@ export default function SlideShow() {
         }
     }
 
-    useEffect(() => {
-        window.addEventListener('scroll', onscrolling);
-        if (scroll === false){
-            const timeout = setTimeout(()=>{
-                    setTimer(timer+1)
-                    setslidenumber(timer%SliderData.length)
+    // useEffect(() => {
+    //     window.addEventListener('scroll', onscrolling);
+    //     if (scroll === false){
+    //         const timeout = setTimeout(()=>{
+    //                 setTimer(timer+1)
+    //                 setslidenumber(timer%SliderData.length)
                     
-            },4000)
-            return () => clearTimeout(timeout)
-        }
-      },[timer]);
+    //         },4000)
+    //         return () => clearTimeout(timeout)
+    //     }
+    //   },[timer]);
 
     return (
         <div className="main">
@@ -64,7 +64,7 @@ export default function SlideShow() {
                 {SliderData.map((slide,index)=>{return ( 
 
                     <div className={index === slidenumber ?  "slide active":"slide"} key={index}>
-                    {index === slidenumber && (<img src={slide.image} alt="image" className="image-div-ss" onLoad={LoadindIsEnded}/>)}
+                    {index === slidenumber && (<img src={slide.image} alt="main-image" className="image-div-ss" onLoad={LoadindIsEnded}/>)}
                     </div>
                     
                 )})}
