@@ -7,6 +7,7 @@ import img3 from "../images and videos sabitha and co/img3.jpg"
 import img4 from "../images and videos sabitha and co/img4.jpg"
 import img5 from "../images and videos sabitha and co/img5.jpg"
 import {AiOutlineCodeSandbox} from "react-icons/ai"
+import trust from "../images and videos sabitha and co/trust.png"
 //spinner//
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner"
@@ -75,7 +76,10 @@ export default function SlideShow() {
             </div>
  
             <Navbar/>
-
+            <div className="trusted-logo-div">
+                <img className="trusted-logo" src={trust} alt="SMS" style={{ }} />
+            </div>
+            
             <div className="main-ss-buttons ">
                 {SliderData.map((slide,index)=>{return ( 
                     <div className={index === slidenumber ?  "icon activee":"icon"} key={index}>

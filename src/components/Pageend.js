@@ -1,6 +1,6 @@
 import React from 'react'
 import "../componentCSS/Pageend.css"
-import { FaFacebookSquare ,FaInstagramSquare,FaHome} from "react-icons/fa";
+import { FaFacebookSquare ,FaInstagramSquare,FaHom} from "react-icons/fa";
 
 export default function Pageend() {
     return (

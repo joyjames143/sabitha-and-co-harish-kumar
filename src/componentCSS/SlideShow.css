@@ -7,6 +7,14 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.main .trusted-logo-div{
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+}
+.main .trusted-logo-div .trusted-logo{
+    width: 80px;
+}
 .main-div-ss{
     position: relative;
     overflow: hidden;

@@ -9,9 +9,9 @@ export default function About() {
                 <div className="description-about-sabithandco">
                     <h3>
                       
-                        That’s right, company stories are not just for tech start-ups. Every business, no matter how big or small, needs to tell a story on their website. It’s just another step towards building a better website for your small business.
-                        Having a story to share on your website is a great way to attract new customers. Remember that people choose to hire professionals that 1) They like, 2) they trust, and 3) they feel like they know. The same holds true for businesses – we’re people after all.
-                        Writing an effective description for your small business is easier than you think.
+                    &ensp; &ensp; &ensp; &ensp;Sabitha & Co in dindigul is one of the leading businesses in the tile dealers. We are very proud to introduce 
+                        "First ever live walkthrough display showroom" in dindigul.we offer products such a wall tiles, floor tiles, glass components, all sanitary ware, and cp-fitting.
+                        
                       
                                      
                     </h3>

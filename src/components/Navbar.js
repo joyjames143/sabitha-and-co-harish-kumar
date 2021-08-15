@@ -4,6 +4,8 @@ import { SiProducthunt } from "react-icons/si";
 import { FaProductHunt } from "react-icons/fa";
 import { HiGift,HiLocationMarker } from "react-icons/hi";
 import { Link } from "react-router-dom"
+import logoMain from "../images and videos sabitha and co/logoMain.png"
+
 
 
 const ComputerList = () => {
@@ -14,7 +16,7 @@ const ComputerList = () => {
             </ul>
             <ul>
             <Link to="/">
-                <li> <h1>SABITHA & CO</h1> </li>
+                <li> <img src={logoMain} alt="SMS" style={{ }} /> </li>
             </Link>
             </ul>
             <ul id="outer">
@@ -35,6 +37,7 @@ const MobileList = () => {
             <div id="first-navbar-mobile">
                 <ul id="one">
                 <Link to="/">
+                    
                     <li><h1>SMS</h1></li>
                 </Link>
                 </ul>

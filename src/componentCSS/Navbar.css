@@ -35,6 +35,12 @@
 .first-navbar-header li{
     list-style: none;
 }
+.first-navbar-header li img{
+    margin-top: 2px;
+    height: 72px;
+    object-fit: cover;
+    
+}
 .first-navbar-header a{
     text-decoration: none;
 }
