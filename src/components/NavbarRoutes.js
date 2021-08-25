@@ -1,13 +1,13 @@
 import React, { useState ,useEffect } from 'react';
 import "../componentCSS/NavbarRoutes.css"
-import { FaToilet} from "react-icons/fa";
+import { FaToilet,FaGifts} from "react-icons/fa";
 import { Link } from "react-router-dom"
 import { GiDominoTiles } from "react-icons/gi";
 import { SiAirtable } from "react-icons/si";
-import { GiProtectionGlasses,GiTap } from "react-icons/gi";
 import { HiGift} from "react-icons/hi";
 import { GoHome } from "react-icons/go";
-
+import { FcGallery } from "react-icons/fc";
+import {GiTap } from "react-icons/gi";
 
 const ComputerList = () => {
     return(
@@ -19,10 +19,10 @@ const ComputerList = () => {
             </ul>
             <ul id="outer-routes">
                 <li> <Link to="/tiles"        id="inner-routes">  <h2>Tiles        </h2> </Link> </li>
-                <li> <Link to="/glass"        id="inner-routes">  <h2>Glass        </h2> </Link> </li>
                 <li> <Link to="/sanitaryware" id="inner-routes">  <h2>SanitaryWare </h2> </Link> </li>
                 <li> <Link to="/cpfittings"   id="inner-routes">  <h2>Cp-fittings  </h2> </Link> </li>
                 <li> <Link to="/counterpads"  id="inner-routes">  <h2>CounterPads  </h2> </Link> </li>
+                <li> <Link to="/gallery"      id="inner-routes">  <h2>Gallery      </h2> </Link> </li>
                 <li> <Link to="/deals"  id="inner-routes">  <h2>deals  </h2> </Link> </li>
             </ul>
         </div>
@@ -40,11 +40,11 @@ const MobileList = () => {
                     </ul>
                     <ul id="twooo-routes" className="navbar-icon-three-routes">
                         <a> <Link to="/tiles">        <li><GiDominoTiles       className="icon-navbar-routes" size="90%"  /></li></Link>  </a>
-                        <a> <Link to="/glass">        <li><GiProtectionGlasses className="icon-navbar-routes" size="100%" /></li></Link>  </a>
                         <a> <Link to="/sanitaryware"> <li><FaToilet            className="icon-navbar-routes" size="55%"  /></li></Link>  </a>
                         <a> <Link to="/cpfittings">   <li><GiTap               className="icon-navbar-routes" size="100%" /></li></Link>  </a>
                         <a> <Link to="/counterpads">  <li><SiAirtable          className="icon-navbar-routes" size="80%"  /></li></Link>  </a>
-                        <a> <Link to="/deals">        <li><HiGift              className="icon-navbar-routes" size="80%"  /></li></Link>  </a>
+                        <a> <Link to="/gallery">      <li><FcGallery           className="icon-navbar-routes" size="100%" /></li></Link>  </a>
+                        <a> <Link to="/deals">        <li><FaGifts              className="icon-navbar-routes" size="80%"  /></li></Link>  </a>
                          
                     </ul> 
                 </div>

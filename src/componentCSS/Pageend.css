@@ -2,8 +2,8 @@
 .padeend-main-second-div{
     margin-top: 50px;
     width: 100%;
-    height: 80px;
-    background-color: #faebd7;
+    height: 60px;
+    background-color: #1A2238;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,8 @@
     padding: 15px 10px 0 10px;
 }
 .padeend-main-second-div .facebook{
-    color: #3b599a;
+    color: grey;
 }
 .padeend-main-second-div .instagram{
-    color: #e13063;
+    color: grey;
 }

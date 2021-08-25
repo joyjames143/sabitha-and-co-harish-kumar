@@ -8,6 +8,14 @@ import logo2 from "../images and videos sabitha and co/logo2.png"
 import logo3 from "../images and videos sabitha and co/logo3.png"
 import logo4 from "../images and videos sabitha and co/logo4.png"
 import logo5 from "../images and videos sabitha and co/logo5.jpg"
+//down are all imports of images///////
+import aximarblebrand from "../images and videos sabitha and co/aximarblebrand.jpg"
+import simerobrand from "../images and videos sabitha and co/simerobrand.png"
+import somaylogo from "../images and videos sabitha and co/somaylogo.png"
+import italicabrand from "../images and videos sabitha and co/italicabrand.png"
+import kajariabrand from "../images and videos sabitha and co/kajariabrand.png"
+import colortile from "../images and videos sabitha and co/colortile.png"
+///////////////////////////////////
 
 
 
@@ -43,11 +51,13 @@ export default function Brands() {
                 
                 removeArrowOnDeviceType={["tablet", "mobile","desktop","superLargeDesktop"]}
             >
-                <div className="logo-img-div"><img className="logo-img" src={logo1} alt="company logo" /></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo2} alt="company logo" /></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo3} alt="company logo" /></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo4} alt="company logo" /></div>
-                <div className="logo-img-div"><img className="logo-img" src={logo5} alt="company logo" /></div>
+                
+                <div className="logo-img-div"><img className="logo-img" src={simerobrand} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={kajariabrand} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={aximarblebrand} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={somaylogo} alt="company logo" /></div>
+                <div className="logo-img-div"><img className="logo-img" src={italicabrand} alt="company logo" /></div>
+                
                 
             </Carousel>; 
             </div>

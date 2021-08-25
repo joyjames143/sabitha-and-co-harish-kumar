@@ -24,36 +24,30 @@ export default function Products() {
                         </div>
                         <div className="inside-image-and-h1-container">
                                 <Tilt> 
-                                        <Link to="/glass">
-                                                <img className="product-image" src={img2} alt="logo"  />
-                                                <h1  className="product-h1">GLASS</h1>
-                                        </Link>
-                                </Tilt>
-                        </div>
-                        <div className="inside-image-and-h1-container">
-                                <Tilt> 
-                                        <Link to="/counterpads">
+                                <Link to="/sanitaryware">
                                                 <img className="product-image" src={img6}  alt="logo" />
-                                                <h1  className="product-h1">COUNTER PADS</h1>
+                                                <h1  className="product-h1">SANITARY WARE</h1>
                                         </Link>
                                 </Tilt>
                         </div>
                         <div className="inside-image-and-h1-container">
                                 <Tilt> 
                                         <Link to="/cpfittings">
-                                                <img className="product-image" src={img4} alt="logo"  />
+                                                <img className="product-image" src={img2} alt="logo"  />
                                                 <h1  className="product-h1">CP - FITTING</h1>
                                         </Link>
                                 </Tilt>
                         </div>
                         <div className="inside-image-and-h1-container">
                                 <Tilt> 
-                                <Link to="/sanitaryware">
+                                        <Link to="/counterpads">
                                                 <img className="product-image" src={img5}  alt="logo" />
-                                                <h1  className="product-h1">SANITARY WARE</h1>
+                                                <h1  className="product-h1">COUNTER TOP</h1>
                                         </Link>
                                 </Tilt>
                         </div>
+                        
+                        
                     
                 </div>
                 

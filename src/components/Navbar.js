@@ -16,7 +16,7 @@ const ComputerList = () => {
             </ul>
             <ul>
             <Link to="/">
-                <li> <img src={logoMain} alt="SMS" style={{ }} /> </li>
+                <li><h1>SABITHA & CO</h1></li>
             </Link>
             </ul>
             <ul id="outer">
