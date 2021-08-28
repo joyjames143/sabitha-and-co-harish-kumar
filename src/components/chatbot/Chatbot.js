@@ -6,8 +6,7 @@ import MessageParser from "./MessageParser";
 import ActionProvider from "./ActionProvider";
 import { FaRobot } from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
-
-
+ 
 export default function Chatbott() {
     const [botClicked, setBotClickked ] = useState(false)
 
@@ -15,7 +14,7 @@ export default function Chatbott() {
         setBotClickked(!botClicked)
     }
 
-    return (
+    return ( 
         <div>
             <div className="chatbox-icon">
                 <AiFillMessage className="chaticon-fontawesom" size="2rem" onClick={iconClicked}/>

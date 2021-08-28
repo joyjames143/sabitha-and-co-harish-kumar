@@ -55,18 +55,17 @@ export default function About() {
                                                 <img className="product-image" src={aboutback1}  alt="logo" />
                                                 <h1  className="product-h1">195000sqft warehousing</h1>                                  
                                 </Tilt>
-                        </div>            
-                    
+                        </div>                              
                 </div>
-                <br></br>
-                    <h3>
-                      
-                    &ensp; &ensp; &ensp; &ensp;Ssabitha & Co in dindigul is one of the leading businesses in the tile dealers. We are very proud to introduce 
-                        "First ever live walkthrough display showroom" in dindigul.we offer products such a wall tiles, floor tiles, glass components, all sanitary ware, and cp-fitting.
-                        
-                      
-                                     
-                    </h3>
+                <br></br>                     
+                    <h4>VISION:</h4>                       
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;To bring quality ceramic product’s with customer centric focus and make our customers feel gratify by our core values of integrity.   </p>                   
+                    <h4>MISSION:</h4>                        
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;To offer “The best” ceramic product and service to our customers </p>                 
+                    <h4>CAREER:</h4>                        
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;In 1990 ceramic business thought shimmered in our mind, We began in a humble zone of 600sqft in thadikombu street, Dindigul. During the year 2005 we extended the zone of display to 1500sqft. 
+                            Later SABITHA & CO chose to grandstand its item in various manner so we constructed a showroom with gigantic presentation of 25,000sqft. To settle on client happiness with their decision of choice, we made live showcase to make our client perceive how their whole living space would be and feel the atmosphere of their living space and to make a world class shopping experience.
+                            Somany, Kajaria, Axi marble, Jhonson are among the brands that were displayed.</p>              
                 </div>
             </div>
         </div>

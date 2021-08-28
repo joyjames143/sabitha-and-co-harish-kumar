@@ -8,12 +8,15 @@
     overflow-y: hidden;
 }
 .main .trusted-logo-div{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     bottom: 100px;
     left: 10px;
 }
 .main .trusted-logo-div .trusted-logo{
-    width: 80px;
+    width: 40px;
+    color: whitesmoke;
 }
 .main-div-ss{
     position: relative;

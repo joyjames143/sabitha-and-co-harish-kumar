@@ -8,6 +8,8 @@ import img4 from "../images and videos sabitha and co/img4.jpg"
 import img5 from "../images and videos sabitha and co/img5.jpg"
 import {AiOutlineCodeSandbox} from "react-icons/ai"
 import trust from "../images and videos sabitha and co/trust.png"
+import honesty from "../images and videos sabitha and co/honesty.png"
+import business from "../images and videos sabitha and co/business.png"
 //spinner//
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner"
@@ -77,7 +79,11 @@ export default function SlideShow() {
  
             <Navbar/>
             <div className="trusted-logo-div">
-                <img className="trusted-logo" src={trust} alt="SMS" style={{ }} />
+                <img className="trusted-logo" src={business} alt="BUSINESS" style={{ }} />
+                <br></br>
+                <img className="trusted-logo" src={honesty} alt="HONESTY" style={{ }} />
+                <br></br>
+                <img className="trusted-logo" src={trust} alt="TRUST" style={{ }} />
             </div>
             
             <div className="main-ss-buttons ">

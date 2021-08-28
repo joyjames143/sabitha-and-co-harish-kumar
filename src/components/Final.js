@@ -9,7 +9,7 @@ import Location from "./Location"
 import About from './About'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Tiles from './Tiles'
-import Gallery from './Gallery'
+import Galleryy from './Galleryy'
 import Cpfittings from './Cpfittings'
 import Counterpads from './Counterpads'
 import Sanitaryware from './Sanitaryware'
@@ -49,8 +49,8 @@ export default function Final() {
                 <Route exact path="/deals">
                     <Deals />
                 </Route>
-                <Route exact path="/gallery">
-                    <Gallery/>
+                <Route exact path="/galleryy">
+                    <Galleryy/>
                 </Route>
             </Switch>
         </Router>

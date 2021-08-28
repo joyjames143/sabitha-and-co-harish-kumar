@@ -22,7 +22,7 @@ const ComputerList = () => {
                 <li> <Link to="/sanitaryware" id="inner-routes">  <h2>SanitaryWare </h2> </Link> </li>
                 <li> <Link to="/cpfittings"   id="inner-routes">  <h2>Cp-fittings  </h2> </Link> </li>
                 <li> <Link to="/counterpads"  id="inner-routes">  <h2>CounterPads  </h2> </Link> </li>
-                <li> <Link to="/gallery"      id="inner-routes">  <h2>Gallery      </h2> </Link> </li>
+                <li> <Link to="/galleryy"      id="inner-routes">  <h2>Gallery      </h2> </Link> </li>
                 <li> <Link to="/deals"  id="inner-routes">  <h2>deals  </h2> </Link> </li>
             </ul>
         </div>
@@ -43,7 +43,7 @@ const MobileList = () => {
                         <a> <Link to="/sanitaryware"> <li><FaToilet            className="icon-navbar-routes" size="55%"  /></li></Link>  </a>
                         <a> <Link to="/cpfittings">   <li><GiTap               className="icon-navbar-routes" size="100%" /></li></Link>  </a>
                         <a> <Link to="/counterpads">  <li><SiAirtable          className="icon-navbar-routes" size="80%"  /></li></Link>  </a>
-                        <a> <Link to="/gallery">      <li><FcGallery           className="icon-navbar-routes" size="100%" /></li></Link>  </a>
+                        <a> <Link to="/galleryy">      <li><FcGallery           className="icon-navbar-routes" size="100%" /></li></Link>  </a>
                         <a> <Link to="/deals">        <li><FaGifts              className="icon-navbar-routes" size="80%"  /></li></Link>  </a>
                          
                     </ul> 

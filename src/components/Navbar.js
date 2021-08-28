@@ -3,6 +3,7 @@ import "../componentCSS/Navbar.css"
 import { SiProducthunt } from "react-icons/si";
 import { FaProductHunt } from "react-icons/fa";
 import { HiGift,HiLocationMarker } from "react-icons/hi";
+import { FcGallery } from "react-icons/fc";
 import { Link } from "react-router-dom"
 import logoMain from "../images and videos sabitha and co/logoMain.png"
 
@@ -12,7 +13,10 @@ const ComputerList = () => {
     return(
         <div className="first-navbar-header" >
             <ul id="outer">
-                <li> <a href="#PRODUCTS" id="inner"> <SiProducthunt className="icon-navbar" size="10%"/> <h2>Products</h2> </a> </li>
+                <li> <a href="#PRODUCTS" id="inner"> <SiProducthunt className="icon-navbar" size="20%"/> <h2>Products</h2> </a> </li>
+                <Link to="/galleryy">
+                <li> <a id="inner"> <FcGallery className="icon-navbar" size="20%"/> <h2>Gallery  </h2> </a> </li>
+                </Link>
             </ul>
             <ul>
             <Link to="/">
@@ -36,18 +40,21 @@ const MobileList = () => {
         <div className=" first-navbar-header" >
             <div id="first-navbar-mobile">
                 <ul id="one">
-                <Link to="/">
-                    
-                    <li><h1>SMS</h1></li>
-                </Link>
+                        <Link to="/">
+                            
+                            <li><h1>SMS</h1></li>
+                        </Link>
                 </ul>
                 <ul id="twooo" className="navbar-icon-three">
-                <a href="#PRODUCTS" ><li><FaProductHunt className="icon-navbar" size="59%" /></li></a>
-                <Link to="/deals">
-                    <a ><li><HiGift className="icon-navbar" size="60%" /></li></a> 
-                </Link>
-                
-                <a href="#LOCATION" ><li><HiLocationMarker   className="icon-navbar" size="61%"/></li></a>
+                        <a href="#PRODUCTS" ><li><FaProductHunt className="icon-navbar" size="100%" /></li></a>
+                        <Link to="/gallery">
+                            <a ><li><FcGallery className="icon-navbar" size="100%" /></li></a> 
+                        </Link>
+                        <Link to="/deals">
+                            <a ><li><HiGift className="icon-navbar" size="100%" /></li></a> 
+                        </Link>
+                        
+                        <a href="#LOCATION" ><li><HiLocationMarker   className="icon-navbar" size="100%"/></li></a>
                 </ul>
                
             </div>

@@ -57,6 +57,17 @@
     font-weight: 80;
 
 }
+
+@media(max-width:950px){
+    .first-navbar-header  h1{
+        font-size: 220%;
+    }
+}
+@media(max-width:835px){
+    .first-navbar-header  h1{
+        font-size: 150%;
+    }
+}
 /* HOVER EFFECT IS APPLIED HERE-----------------------------------------------*/
 @media (hover: hover) {
     .first-navbar-header:hover{
@@ -89,6 +100,7 @@
 #first-navbar-mobile ul{
     padding: 0 0 0 0;
     padding-left: 15px;
+    padding-right: 15px;
 }
 #first-navbar-mobile ul li h1{
     font-size: 40px;
@@ -102,6 +114,8 @@
 
 #first-navbar-mobile #twooo li .icon-navbar{
     color: 	#f5fffa;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
 }
 
 
