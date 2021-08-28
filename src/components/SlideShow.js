@@ -16,8 +16,8 @@ import Loader from "react-loader-spinner"
 
 const SliderData = 
         [
-            { image : img1 },
             { image : img2 },
+            { image : img1 },
             { image : img3 },
             { image : img4 },
             { image : img5 },
