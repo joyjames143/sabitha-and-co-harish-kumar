@@ -9,9 +9,12 @@ import somaylogo from "../images and videos sabitha and co/somaylogo.png"
 import italicalogo from "../images and videos sabitha and co/italicalogo.png"
 import kajaria from "../images and videos sabitha and co/kajaria.png"
 import colortile from "../images and videos sabitha and co/colortile.png"
-///////////////////////////////////
-
-
+///down are all imports of catlogur pdfss///////
+import aximarblemaster from "../images and videos sabitha and co/catlogs/TILES/axi marble/aximarblemaster.pdf"
+import aximarble120x180 from "../images and videos sabitha and co/catlogs/TILES/axi marble/aximarble120x180.pdf"
+import aximarble120x240 from "../images and videos sabitha and co/catlogs/TILES/axi marble/aximarble120x240.pdf"
+import kajariamaster from "../images and videos sabitha and co/catlogs/TILES/kajaria/kajariamaster.pdf"
+import italicamaster from "../images and videos sabitha and co/catlogs/TILES/italica/italicamaster.pdf"
 
 export default function Tiles() {
     return (
@@ -35,20 +38,16 @@ export default function Tiles() {
                 back={
                   <div className="Back">
                       <div className="logo-card-heading">
-                        <h2>AXI MARBLE CATLOGUE</h2>
-                        
+                        <h2>AXI MARBLE CATLOGUE</h2>                      
                       </div>
                       <div className="buttons-different-types">
                         <div className="two-button-div">
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER            </button>  </a>
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                          <a className="logo-button-anchor" href={aximarblemaster} target="_blank"><button className="logo-button" >MASTER            </button>  </a>
                         </div>
                         <div className="two-button-div">
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
-                        </div>
-                        
-                        
+                          <a className="logo-button-anchor" href={aximarble120x180} target="_blank"><button className="logo-button" >120&#215;240      </button>  </a>
+                          <a className="logo-button-anchor" href={aximarble120x240} target="_blank"><button className="logo-button" >120&#215;180      </button>  </a>  
+                        </div> 
                       </div>
                   </div>
                 }
@@ -78,9 +77,10 @@ export default function Tiles() {
                         <div className="two-button-div">
                           <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER</button>  </a>
                           <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                          <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
                         </div>
                         <div className="two-button-div">
-                        
+                          <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
                           <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
                           <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
                         </div>
@@ -114,13 +114,11 @@ export default function Tiles() {
                       </div>
                       <div className="buttons-different-types">
                         <div className="two-button-div">
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER</button>  </a>
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                          <a className="logo-button-anchor" href={kajariamaster} target="_blank"><button className="logo-button" >MASTER</button>  </a>
+                    
                         </div>
                         <div className="two-button-div">
-                        
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
+
                         </div>
                         
                         
@@ -152,13 +150,12 @@ export default function Tiles() {
                       </div>
                       <div className="buttons-different-types">
                         <div className="two-button-div">
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER</button>  </a>
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                          <a className="logo-button-anchor" href={italicamaster} target="_blank"><button className="logo-button" >MASTER</button>  </a>
+                          
                         </div>
                         <div className="two-button-div">
                         
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                          <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
+                            <a></a>
                         </div>
                         
                         
