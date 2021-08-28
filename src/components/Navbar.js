@@ -47,7 +47,7 @@ const MobileList = () => {
                 </ul>
                 <ul id="twooo" className="navbar-icon-three">
                         <a href="#PRODUCTS" ><li><FaProductHunt className="icon-navbar" size="100%" /></li></a>
-                        <Link to="/gallery">
+                        <Link to="/galleryy">
                             <a ><li><FcGallery className="icon-navbar" size="100%" /></li></a> 
                         </Link>
                         <Link to="/deals">
