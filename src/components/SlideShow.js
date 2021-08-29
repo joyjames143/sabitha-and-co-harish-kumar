@@ -48,17 +48,17 @@ export default function SlideShow() {
         }
     }
 
-    // useEffect(() => {
-    //     window.addEventListener('scroll', onscrolling);
-    //     if (scroll === false){
-    //         const timeout = setTimeout(()=>{
-    //                 setTimer(timer+1)
-    //                 setslidenumber(timer%SliderData.length)
+    useEffect(() => {
+        window.addEventListener('scroll', onscrolling);
+        if (scroll === false){
+            const timeout = setTimeout(()=>{
+                    setTimer(timer+1)
+                    setslidenumber(timer%SliderData.length)
                     
-    //         },4000)
-    //         return () => clearTimeout(timeout)
-    //     }
-    //   },[timer]);
+            },4000)
+            return () => clearTimeout(timeout)
+        }
+      },[timer]);
 
     return (
         <div className="main">
