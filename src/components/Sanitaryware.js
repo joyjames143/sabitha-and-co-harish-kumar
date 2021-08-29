@@ -6,7 +6,10 @@ import "../componentCSS/Tiles.css"
 import johnson from "../images and videos sabitha and co/johnson.png"
 import queo from "../images and videos sabitha and co/queo.png"
 import hindware from "../images and videos sabitha and co/hindware.png"
-///////////////////////////////////////
+//down are all imports of catlog pdfs///////
+import Queomaster from "../images and videos sabitha and co/catlogs/sanitaryware/queo/Queomaster.pdf"
+import johnsonmaster from "../images and videos sabitha and co/catlogs/sanitaryware/Johnson&Johnson/johnsonmaster.pdf"
+import Johnsoninternational from "../images and videos sabitha and co/catlogs/sanitaryware/Johnson&Johnson/Johnsoninternational.pdf"
 
 export default function Sanitaryware() {
     return (
@@ -34,15 +37,12 @@ export default function Sanitaryware() {
                             </div>
                             <div className="buttons-different-types">
                                 <div className="two-button-div">
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER            </button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                                    <a className="logo-button-anchor" href={johnsonmaster} target="_blank"><button className="logo-button" >MASTER </button>  </a>                              
                                 </div>
+
                                 <div className="two-button-div">
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
-                                </div>
-                                
-                                
+                                    <a className="logo-button-anchor" href={Johnsoninternational}><button className="logo-button" >GLOBAL </button>  </a>
+                                </div>                                                               
                             </div>
                         </div>
                         }
@@ -70,16 +70,11 @@ export default function Sanitaryware() {
                             </div>
                             <div className="buttons-different-types">
                                 <div className="two-button-div">
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER</button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                                    <a className="logo-button-anchor" href={Queomaster} target="_blank"><button className="logo-button" >MASTER</button>  </a>
                                 </div>
+
                                 <div className="two-button-div">
-                                
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
-                                </div>
-                                
-                                
+                                </div>                                                           
                             </div>
                         </div>
                         }
@@ -104,17 +99,15 @@ export default function Sanitaryware() {
                         back={
                         <div className="Back">
                             <div className="logo-card-heading">
-                                <h2>KAJARIA CATLOGUE</h2>
+                                <h2>HINDWARE CATLOGUE</h2>
                             </div>
                             <div className="buttons-different-types">
                                 <div className="two-button-div">
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER</button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                                <a className="logo-button-anchor" href="#"><button className="logo-button" >Soon....</button>  </a>
+                                
                                 </div>
                                 <div className="two-button-div">
                                 
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
                                 </div>
                                 
                                 

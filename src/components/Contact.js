@@ -22,8 +22,9 @@ export default function Contact() {
             <h1 className="heading heading-contact">CONTACT </h1>
             <h2 className="heading heading-details">we will contact you within "2" working hrs</h2>
             <div className="materila-ui">
-                <form  className="contact-materialul-div" action="https://formsubmit.co/joyjames143007@gmail.com" method="POST">
-                    <input type="hidden" name="_next" value="http://sabithaandcoharish.netlify.app/"></input>
+                <form  className="contact-materialul-div" action="https://formsubmit.co/sabitha.co.in@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://sabitha.in/"></input>
+                    <input type="hidden" name="_captcha" value="false"></input>
                     <ThemeProvider theme={theme}>
                     <div className="material-ui-input-fields-div">
                         <FormControl fullWidth>

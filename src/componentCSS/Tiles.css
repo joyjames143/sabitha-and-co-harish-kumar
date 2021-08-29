@@ -47,7 +47,7 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    bottom: 8%;
+    top: 30%;
     flex-wrap: wrap;
 }
 .cards-tiles-main-div .Back .buttons-different-types .two-button-div{

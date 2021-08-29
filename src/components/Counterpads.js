@@ -4,6 +4,8 @@ import HoverCard from 'react-png-hovercard';
 import "../componentCSS/Tiles.css"
 //down are all imports of images///////
 import kajaria from "../images and videos sabitha and co/kajaria.png"
+//down are all imports of catlog pdfs///////
+import kajariamaster from "../images and videos sabitha and co/catlogs/countertop/kajaria/kajariamaster.pdf"
 
 export default function Counterpads() {
     return (
@@ -31,12 +33,11 @@ export default function Counterpads() {
                             </div>
                             <div className="buttons-different-types">
                                 <div className="two-button-div">
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >MASTER            </button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >80&#215;160       </button>  </a>
+                                <a className="logo-button-anchor" href={kajariamaster} target="_blank"><button className="logo-button" >MASTER            </button>  </a>
+                                
                                 </div>
                                 <div className="two-button-div">
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;240      </button>  </a>
-                                <a className="logo-button-anchor" href="#"><button className="logo-button" >120&#215;180      </button>  </a>  
+                                
                                 </div>
                                 
                                 
