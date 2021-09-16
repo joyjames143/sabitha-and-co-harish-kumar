@@ -2,14 +2,15 @@ import React, { useState, useEffect } from 'react';
 import "../componentCSS/SlideShow.css"
 //carousel//
 import Carousel from "react-multi-carousel";
-//carousel//
+//arrow//
+import { GiSmashArrows } from "react-icons/gi";
+////
 import Navbar from './Navbar'
 import img1 from "../images and videos sabitha and co/img1.jpg"
 import img2 from "../images and videos sabitha and co/img2.jpg"
 import img3 from "../images and videos sabitha and co/img3.jpg"
 import img4 from "../images and videos sabitha and co/img4.jpg"
 import img5 from "../images and videos sabitha and co/img5.jpg"
-import {AiOutlineCodeSandbox} from "react-icons/ai"
 import trust from "../images and videos sabitha and co/trust.png"
 import honesty from "../images and videos sabitha and co/honesty.png"
 import business from "../images and videos sabitha and co/business.png"
@@ -84,7 +85,9 @@ export default function SlideShow() {
                 <img className="trusted-logo" src={trust} alt="TRUST" style={{ }} />
             </div>
             
-        
+            <div className="main-ss-buttons ">
+                <GiSmashArrows size="2em"/>
+            </div>
         </div>
     ) 
 }
