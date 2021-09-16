@@ -70,11 +70,7 @@
 }
 /* HOVER EFFECT IS APPLIED HERE-----------------------------------------------*/
 @media (hover: hover) {
-    .first-navbar-header:hover{
-        background-color: rgb(248, 247, 245);
-        transition: 0.5s;
     
-    }
     .first-navbar-header:hover  h2{
         color: #203647;
     

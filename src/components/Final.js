@@ -25,8 +25,9 @@ export default function Final() {
                     <Products/>
                     <Brands/>
                     <Contact/> 
-                    <Location/>
+                    
                     <About/>
+                    <Location/>
                     <Pageend/>
                     <ContactIcon/>
                     <Chatbott/>
