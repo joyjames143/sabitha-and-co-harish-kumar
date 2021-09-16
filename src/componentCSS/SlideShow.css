@@ -45,6 +45,9 @@
     position: absolute;
     justify-content: center;
     align-items: center;
+    
+}
+.main-ss-buttons .arrow-helper{
     color: #203647;
 }
 .box-react-icon{

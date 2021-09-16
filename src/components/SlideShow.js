@@ -86,7 +86,7 @@ export default function SlideShow() {
             </div>
             
             <div className="main-ss-buttons ">
-                <a href="#PRODUCTS"><GiSmashArrows  size="2em"/></a>
+                <a href="#PRODUCTS"><GiSmashArrows className="arrow-helper" size="2em"/></a>
                 
             </div>
         </div>
