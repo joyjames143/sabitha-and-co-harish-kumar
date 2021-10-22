@@ -6,6 +6,8 @@ import { HiGift,HiLocationMarker } from "react-icons/hi";
 import { FcGallery } from "react-icons/fc";
 import { Link } from "react-router-dom"
 import logoMain from "../images and videos sabitha and co/logoMain.png"
+import sandclogo from "../images and videos sabitha and co/sandclogo.jpg"
+import logomobile from "../images and videos sabitha and co/logomobile.png"
 
 
 
@@ -20,7 +22,10 @@ const ComputerList = () => {
             </ul>
             <ul>
             <Link to="/">
-                <li><h1>SABITHA & CO</h1></li>
+                <li>
+                    <img className="main-sabitha-logo" src={sandclogo} alt="company logo"/>
+                </li>
+                
             </Link>
             </ul>
             <ul id="outer">
@@ -42,7 +47,7 @@ const MobileList = () => {
                 <ul id="one">
                         <Link to="/">
                             
-                            <li><h1>SMS</h1></li>
+                            <li><img className="main-sabitha-logo" src={logomobile} alt="company logo"/></li>
                         </Link>
                 </ul>
                 <ul id="twooo" className="navbar-icon-three">
@@ -56,7 +61,6 @@ const MobileList = () => {
                         
                         <a href="#LOCATION" ><li><HiLocationMarker   className="icon-navbar" size="100%"/></li></a>
                 </ul>
-               
             </div>
             </div> 
         </>

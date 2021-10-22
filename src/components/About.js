@@ -8,10 +8,10 @@ import img5 from "../images and videos sabitha and co/img5.jpg"
 import img6 from "../images and videos sabitha and co/img6.jpeg"
 
 export default function About() {
-    return (
+return (
         <div>
-            <h1 className="heading">ABOUT</h1>
-            <div className="about-sabithaandco">
+        <h1 className="heading">ABOUT</h1>
+        <div className="about-sabithaandco">
                 <div className="description-about-sabithandco">
                 <div className="image-and-h1-container-about">
                         <div className="inside-image-and-h1-container-about">
@@ -69,5 +69,5 @@ export default function About() {
                 </div>
             </div>
         </div>
-    )
+)
 }
