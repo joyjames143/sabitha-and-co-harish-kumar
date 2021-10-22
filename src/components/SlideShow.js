@@ -56,7 +56,7 @@ export default function SlideShow() {
                 ssr={true}
                 responsive={responsive}
                 infinite={true} 
-                autoPlaySpeed={400000} 
+                autoPlaySpeed={4000} 
                 autoPlay={true}
                 keyBoardControl={true}
                 removeArrowOnDeviceType={["tablet", "mobile","desktop","superLargeDesktop"]}
