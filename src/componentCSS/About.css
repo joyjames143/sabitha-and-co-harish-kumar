@@ -32,6 +32,7 @@
 .inside-image-and-h1-container-about{
     width: 150px;
     padding: 0px 5px 5px 5px;
+    
 }
 .inside-image-and-h1-container-about .product-h1{
     width: 100%;
@@ -41,11 +42,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 120%;
-   
     background-color: transparent ;
     text-align: center;
     font-family: 'Rampart One', cursive;
+    color: white;
 }
+.video-container-about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; 
+} 
 /* this a tag is to change the color of the link tag in react router*/
 a{
     color: #000;
@@ -56,6 +62,13 @@ a{
     object-fit: cover;
     border-radius: 5px;
     
+}
+@media (max-width: 1024px){
+    video {
+        width: 100% !important;
+        height: 315px !important; 
+        object-fit: cover !important;
+    }
 }
 
 

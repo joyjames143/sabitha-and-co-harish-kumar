@@ -25,6 +25,7 @@
     "react-png-hovercard": "^0.9.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-web-media-player": "^1.1.6",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

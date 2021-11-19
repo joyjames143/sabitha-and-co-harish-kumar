@@ -47,7 +47,7 @@ const MobileList = () => {
                 <ul id="one">
                         <Link to="/">
                             
-                            <li><img className="main-sabitha-logo" src={logomobile} alt="company logo"/></li>
+                            <li><h1>SMS</h1></li>
                         </Link>
                 </ul>
                 <ul id="twooo" className="navbar-icon-three">
