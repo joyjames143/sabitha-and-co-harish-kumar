@@ -1,3 +1,10 @@
+.about-section-totalFull-div{
+    background-color: #414547;
+}
+.about-specific-heading{
+    margin: 0;
+    padding-top: 20px;
+}
 .about-sabithaandco{
     display: flex;
     justify-content: center;
@@ -12,10 +19,10 @@
 
     margin-top: 5px;
     margin-bottom: 5px;
-    font-family: 'Hina Mincho', serif;
+    font-family: 'PT Sans', sans-serif;
 }
 .description-about-sabithandco p {
-    font-family: 'Kaisei Opti', serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* down css code is for the boxxes insides the aboutme section*/
@@ -35,7 +42,7 @@
     
 }
 .inside-image-and-h1-container-about .product-h1{
-    width: 100%;
+    width: 90%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -44,7 +51,7 @@
     font-size: 120%;
     background-color: transparent ;
     text-align: center;
-    font-family: 'Rampart One', cursive;
+    font-family: 'PT Sans', sans-serif;
     color: white;
 }
 .video-container-about{
@@ -62,6 +69,13 @@ a{
     object-fit: cover;
     border-radius: 5px;
     
+}
+.last-section-on-about-div{
+    margin-bottom: 30px;
+    color: azure;
+}
+.wmp-title {
+    font-family: 'Rampart One', cursive !important;
 }
 @media (max-width: 1024px){
     video {

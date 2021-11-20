@@ -12,8 +12,8 @@ import FullStoreVideo from "../images and videos sabitha and co/videos/FullStore
 
 export default function About() {
 return (
-        <div>
-        <h1 className="heading">ABOUT</h1>
+        <div className="about-section-totalFull-div">
+        <h1 className="heading about-specific-heading">ABOUT</h1>
         <div className="about-sabithaandco">
                 <div className="description-about-sabithandco">
                         <div className="video-container-about">
@@ -68,15 +68,17 @@ return (
                                 </Tilt>
                         </div>                              
                 </div>
-                <br></br>                     
-                        <h4>VISION:</h4>                       
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;To bring quality ceramic product’s with customer centric focus and make our customers feel gratify by our core values of integrity.   </p>                   
-                        <h4>MISSION:</h4>                        
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;To offer “The best” ceramic product and service to our customers </p>                 
-                        <h4>CAREER:</h4>                        
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;In 1990 ceramic business thought shimmered in our mind, We began in a humble zone of 600sqft in thadikombu street, Dindigul. During the year 2005 we extended the zone of display to 1500sqft. 
-                                Later SABITHA & CO chose to grandstand its item in various manner so we constructed a showroom with gigantic presentation of 25,000sqft. To settle on client happiness with their decision of choice, we made live showcase to make our client perceive how their whole living space would be and feel the atmosphere of their living space and to make a world class shopping experience.
-                                Somany, Kajaria, Axi marble, Jhonson are among the brands that were displayed.</p>              
+                <br></br>
+                                <div className="last-section-on-about-div">
+                                        <h4>VISION:</h4>                       
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;To bring quality ceramic product’s with customer centric focus and make our customers feel gratify by our core values of integrity.   </p>                   
+                                        <h4>MISSION:</h4>                        
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;To offer “The best” ceramic product and service to our customers </p>                 
+                                        <h4>CAREER:</h4>                        
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;In 1990 ceramic business thought shimmered in our mind, We began in a humble zone of 600sqft in thadikombu street, Dindigul. During the year 2005 we extended the zone of display to 1500sqft. 
+                                                Later SABITHA & CO chose to grandstand its item in various manner so we constructed a showroom with gigantic presentation of 25,000sqft. To settle on client happiness with their decision of choice, we made live showcase to make our client perceive how their whole living space would be and feel the atmosphere of their living space and to make a world class shopping experience.
+                                                Somany, Kajaria, Axi marble, Jhonson are among the brands that were displayed.</p>              
+                                </div>                     
                         </div>
                 </div>
         </div>

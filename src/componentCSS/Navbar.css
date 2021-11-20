@@ -21,7 +21,7 @@
 .first-navbar-header{
     margin: 0;  
     width: 100%;
-    background-color: rgba(31, 22, 22, 0.1);
+    background-color: rgba(31, 22, 22, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,6 +101,16 @@
 #first-navbar-mobile ul li h1{
     font-size: 40px;
     color: 	#f5fffa;
+    margin: 0;
+    margin-top: -8px;
+}
+#first-navbar-mobile ul li p{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: 	#f5fffa;
+    margin: 0;
+    margin-top: -7px;
 }
 #first-navbar-mobile #twooo li {
 
@@ -136,3 +146,19 @@
     align-items: center;
 }
 
+@media (max-width: 363px){
+    #first-navbar-mobile ul li h1{
+        font-size: 30px;
+    }
+    #first-navbar-mobile ul li p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 318px){
+    #first-navbar-mobile ul li h1{
+        font-size: 25px;
+    }
+    #first-navbar-mobile ul li p{
+        font-size: 10px;
+    }
+}

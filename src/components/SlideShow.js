@@ -6,11 +6,11 @@ import Carousel from "react-multi-carousel";
 import { GiSmashArrows } from "react-icons/gi";
 ////
 import Navbar from './Navbar'
-import img1 from "../images and videos sabitha and co/img1.jpg"
-import img2 from "../images and videos sabitha and co/img2.jpg"
-import img3 from "../images and videos sabitha and co/img3.jpg"
-import img4 from "../images and videos sabitha and co/img4.jpg"
-import img5 from "../images and videos sabitha and co/img5.jpg"
+import img1 from "../images and videos sabitha and co/slideshowimg/img1.png"
+import img2 from "../images and videos sabitha and co/slideshowimg/img2.png"
+import img3 from "../images and videos sabitha and co/slideshowimg/img3.png"
+import img4 from "../images and videos sabitha and co/slideshowimg/img4.png"
+import img5 from "../images and videos sabitha and co/slideshowimg/img5.png"
 import trust from "../images and videos sabitha and co/trust.png"
 import honesty from "../images and videos sabitha and co/honesty.png"
 import business from "../images and videos sabitha and co/business.png"

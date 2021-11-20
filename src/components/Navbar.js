@@ -46,8 +46,8 @@ const MobileList = () => {
             <div id="first-navbar-mobile">
                 <ul id="one">
                         <Link to="/">
-                            
-                            <li><h1>SMS</h1></li>
+                            <li><h1>sabitha & co</h1></li>
+                            <li><p>Tiles & ceramics</p></li>
                         </Link>
                 </ul>
                 <ul id="twooo" className="navbar-icon-three">
