@@ -67,7 +67,7 @@ const MobileList = () => {
     )
 }
 
-export default function Navbar() {
+export default function Navbar() { 
 
     const [isMobile,setIsMobile] = useState(typeof window !=='undefined' && window.matchMedia("(max-width:700px)").matches)
 
