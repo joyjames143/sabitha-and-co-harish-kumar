@@ -74,6 +74,10 @@ a{
     margin-bottom: 30px;
     color: azure;
 }
+.last-section-on-about-div h4{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
 .wmp-title {
     font-family: 'Rampart One', cursive !important;
 }

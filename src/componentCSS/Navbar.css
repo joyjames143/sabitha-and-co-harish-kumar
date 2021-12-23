@@ -103,14 +103,18 @@
     color: 	#f5fffa;
     margin: 0;
     margin-top: -8px;
+    color: #e8000d;
+    font-family: 'Abril Fatface', cursive;
 }
 #first-navbar-mobile ul li p{
     font-family: 'Abril Fatface', cursive;
+    
     text-align: center;
     font-size: 20px;
     color: 	#f5fffa;
     margin: 0;
     margin-top: -7px;
+    color: #e8000d;
 }
 #first-navbar-mobile #twooo li {
 
@@ -146,7 +150,7 @@
     align-items: center;
 }
 
-@media (max-width: 363px){
+@media (max-width: 460px){
     #first-navbar-mobile ul li h1{
         font-size: 30px;
     }
@@ -154,11 +158,19 @@
         font-size: 15px;
     }
 }
-@media (max-width: 318px){
+@media (max-width: 357px){
     #first-navbar-mobile ul li h1{
         font-size: 25px;
     }
     #first-navbar-mobile ul li p{
         font-size: 10px;
+    }
+}
+@media (max-width: 327px){
+    #first-navbar-mobile ul li h1{
+        font-size: 20px;
+    }
+    #first-navbar-mobile ul li p{
+        font-size: 7px;
     }
 }

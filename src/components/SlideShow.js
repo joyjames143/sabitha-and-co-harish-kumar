@@ -84,10 +84,10 @@ export default function SlideShow() {
                 <img className="trusted-logo" src={trust} alt="TRUST" style={{ }} />
             </div>
             
-            <div className="main-ss-buttons ">
+            {/* <div className="main-ss-buttons ">
                 <a href="#PRODUCTS"><GiSmashArrows className="arrow-helper" size="2em"/></a>
                 
-            </div>
+            </div> */}
         </div>
     ) 
 }
