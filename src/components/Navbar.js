@@ -14,25 +14,22 @@ import logomobile from "../images and videos sabitha and co/logomobile.png"
 const ComputerList = () => {
     return(
         <div className="first-navbar-header" >
+            <ul id="logo-computer-main">
+            <Link to="/">
+                <li>
+                    <img className="main-sabitha-logo" src={sandclogo} alt="company logo"/>
+                </li>
+            </Link>
+            </ul>
             <ul id="outer">
                 <li> <a href="#PRODUCTS" id="inner"> <SiProducthunt className="icon-navbar" size="20%"/> <h2>Products</h2> </a> </li>
                 <Link to="/galleryy">
                 <li> <a id="inner"> <FcGallery className="icon-navbar" size="20%"/> <h2>Gallery  </h2> </a> </li>
                 </Link>
-            </ul>
-            <ul>
-            <Link to="/">
-                <li>
-                    <img className="main-sabitha-logo" src={sandclogo} alt="company logo"/>
-                </li>
-                
-            </Link>
-            </ul>
-            <ul id="outer">
+                <li> <a href="#LOCATION" id="inner"> <HiLocationMarker   className="icon-navbar" size="19%"/> <h2>Location</h2> </a> </li>
                 <Link to="/deals">
                 <li> <a id="inner"> <HiGift className="icon-navbar" size="20%"/> <h2>Deals   </h2> </a> </li>
                 </Link>
-                <li> <a href="#LOCATION" id="inner"> <HiLocationMarker   className="icon-navbar" size="19%"/> <h2>Location</h2> </a> </li>
             </ul>
         </div>
 

@@ -16,15 +16,16 @@
     justify-content: center;
 }
 .contact-materialul-div{
-   width: 50%;
-  
+    width: 50%;
 }
 .MuiInputBase-input{
     width: 500px;
 }
 .material-ui-input-fields-div{
     padding: 0 0 20px 0;
-   
+}
+.MuiOutlinedInput-root{
+    color: #DC3D24 !important;
 }
 .MuiInputLabel-outlined {
     z-index: 0 !important;
